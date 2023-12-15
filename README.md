@@ -8,10 +8,9 @@ This Python script automates the processing of attendance logs and generates CSV
 
 - [Why Use This Script](#why-use-this-script)
 - [How to Use](#how-to-use)
-  - [Prerequisites](#prerequisites)
-  - [Running the Script](#running-the-script)
+- [Prerequisites](#prerequisites)
+- [Running the Script](#running-the-script)
 - [Additional Requirements](#additional-requirements)
-- [License](#license)
 
 ## Why Use This Script
 
@@ -33,5 +32,24 @@ Before using the script, ensure you have the following:
 
    ```bash
    git clone https://github.com/AmirAbbas101/Automation-of-Attendance-Log-File.git
+
+2. Navigate to the project directory:
+
+    ```bash  
    cd Automation-of-Attendance-Log-File
-   python your_script.py
+
+3. Run the script:
+
+    ```bash  
+   python process_attendance_log.py
+
+## Additional Requirements
+
+The script relies on the following Python packages (included in the standard library):
+
+- CSV: Standard library for handling CSV files.
+- os: Standard library for interacting with the operating system.
+- DateTime: Standard library for handling date and time.
+
+No additional requirements need to be installed.
+
